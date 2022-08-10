@@ -75,7 +75,7 @@ function App() {
         ? <Profile setIsLogin={setIsLogin} setAccount = {(detail) => setUserDetail(detail)} /> 
         : isLogin && userDetail.accountType === 'Student' && userDetail.status ===true
         ? <Notes setIsLogin={setIsLogin} />
-        : <Admin/>  
+        : <Notes setIsLogin={setIsLogin} />  
       } 
       
      </div>
