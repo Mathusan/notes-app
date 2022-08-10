@@ -15,3 +15,7 @@ A note taking platform with user management built using the MERN(Mongo DB, Expre
 
 ## Run the React client only
 ### cd client then `npm run start`
+
+
+![My Image](loginscreen.PNG)
+![My Image](dashboard.PNG)
