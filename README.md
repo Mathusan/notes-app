@@ -8,7 +8,7 @@ A note taking platform with user management built using the MERN(Mongo DB, Expre
 ## Install dependencies for client
 ### cd client then `npm install`
 
-## Connnect to your mongodb 
+## Connect to your mongodb 
 ### setup .env with mongodb url , stmp mail and password 
 ## Run the Express server only
 ### `npm run devStart`
