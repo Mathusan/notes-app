@@ -2,11 +2,11 @@ const mongoose = require('mongoose')
 
 
 const userSchema = new mongoose.Schema({
-    id:{
-        type: Number,
-        required : true,
-        unique : true
-    },
+    // id:{ 
+    //     type: Number,
+    //     required : false,      // change id so that it only contains numerics
+    //     unique : true
+    // },
     firstName:{
         type: String,
         required : false
@@ -30,7 +30,9 @@ const userSchema = new mongoose.Schema({
     },
     status:{
         type: Boolean,
-        required : false
+        required : false,
+        default: false
+
     },
     password:{
         type: String,
@@ -38,8 +40,13 @@ const userSchema = new mongoose.Schema({
     },
     accountType:{
         type: String,
-        required : true
+        required : true,
+        default : "Student"
     },
+    verified: {
+        type:Boolean, 
+        default: false
+    }
 
 }, {
     timestamps: true
