@@ -115,7 +115,7 @@ a{
   letter-spacing: 2px;
   font-size: 12px;
 }
-/* ******* Create Note******************* */
+
 .create-note{
   max-width: 500px;
   width: 100%;
@@ -162,7 +162,7 @@ a{
   }
 }
 
-/* *********Login / Register******* */
+
 .login-page{
   position: relative;
   width: 100%;
